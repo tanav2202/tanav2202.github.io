@@ -12,14 +12,16 @@
 .brand-and-toggler {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-right: 5rem;
 }
 
 .navbar-brand {
     text-transform: uppercase;
     font-family: var(--poppins);
-    font-size: 1.7rem;
-    font-weight: 800;
+    color: (--sec-color);
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .navbar-toggler {
