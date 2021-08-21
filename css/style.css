@@ -372,45 +372,31 @@
 }
 
 .contact>.text {
-    width: 70%;
+    width: 80%;
     margin: 1.5rem auto;
     text-align: center;
 }
 
 .contact .row {
     margin: 1rem 0;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
 }
 
 .contact .row>div {
     margin: 2.5rem 0;
     padding: 2rem 0;
+    justify-content: center;
+    justify-items: center;
 }
 
-.contact .col-left h2 {
+.contact .col h2 {
     text-transform: uppercase;
 }
 
-.contact .contact-info {
-    margin: 1rem 0;
-    padding: 0.5rem 0;
-    display: flex;
-    align-items: center;
-}
-
-.contact .contact-info>span {
-    color: var(--sec-color);
-    font-size: 2.6rem;
-    margin-right: 1.2rem;
-}
-
-.contact .contact-info h3 {
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-.contact .contact-info h3 span {
-    text-transform: uppercase;
-    font-size: 1.05rem;
+.contact {
+    font-size: 1.5rem;
 }
 
 .wrapper {
@@ -748,7 +734,7 @@
         grid-gap: 2rem;
     }
     .wrapper .icon {
-        padding: 15px;
+        padding: 40px;
         width: 90px;
         height: 90px;
         font-size: 60px;
