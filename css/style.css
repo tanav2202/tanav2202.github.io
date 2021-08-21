@@ -220,162 +220,6 @@
 }
 
 
-/* #### RESUME PAGE #### */
-
-.resume {
-    padding: 5rem 0 2.5rem 0;
-}
-
-.resume>.text {
-    width: 70%;
-    margin: 1.5rem auto;
-    text-align: center;
-}
-
-.resume .item {
-    padding: 0 2.5rem;
-    margin: 2rem;
-    border-left: 1px solid var(--nero);
-    position: relative;
-}
-
-.resume .item>span {
-    background: var(--nero);
-    border-radius: 15px;
-    padding: 0.25rem 0.7rem;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-.resume .item h2 {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1.2rem;
-}
-
-.resume .item h2 span {
-    font-size: 1rem;
-    color: #d0d0d0;
-}
-
-.resume .item .text {
-    font-size: 1rem;
-    padding-bottom: 0;
-}
-
-.resume .icon {
-    position: absolute;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: var(--sec-color);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: -25px;
-}
-
-
-/* #### SKILLS PAGE #### */
-
-.skills {
-    padding: 5rem 0 2.5rem 0;
-}
-
-.skills>.text {
-    width: 70%;
-    margin: 1.5rem auto;
-    text-align: center;
-}
-
-.skills .row {
-    margin: 1rem 0;
-}
-
-.skills .item {
-    padding: 0.5rem 0;
-    margin: 0.3rem 0;
-}
-
-.skills .item-text {
-    display: flex;
-    justify-content: flex-start;
-    font-weight: 600;
-    font-size: 1.3rem;
-    position: relative;
-}
-
-.skills .item-text span:last-child {
-    position: absolute;
-}
-
-.skills .item-text .w-90 {
-    margin-left: 85%;
-}
-
-.skills .item-text .w-75 {
-    margin-left: 70%;
-}
-
-.skills .item-text .w-85 {
-    margin-left: 80%;
-}
-
-.skills .item-text .w-80 {
-    margin-left: 75%;
-}
-
-.skills .item-text .w-60 {
-    margin-left: 55%;
-}
-
-.skills .item-text .w-68 {
-    margin-left: 63%;
-}
-
-.progress {
-    margin: 0.8rem 0;
-    border-radius: 10px;
-    height: 16px;
-    width: 100%;
-    background-color: var(--nero);
-    overflow: hidden;
-}
-
-.progress-bar {
-    background: var(--sec-color);
-    height: 100%;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-}
-
-.progress-bar.w-90 {
-    width: 90%;
-}
-
-.progress-bar.w-75 {
-    width: 75%;
-}
-
-.progress-bar.w-85 {
-    width: 85%;
-}
-
-.progress-bar.w-80 {
-    width: 80%;
-}
-
-.progress-bar.w-60 {
-    width: 60%;
-}
-
-.progress-bar.w-68 {
-    width: 68%;
-}
-
-
 /* #### PROJECTS PAGE #### */
 
 .projects {
@@ -396,27 +240,11 @@
 }
 
 .projects .row .item:nth-child(1) {
-    background: url(../assets/project-img-1.jpg) center/cover no-repeat;
+    background: url(../assets/mylogo.jpg) center/cover no-repeat;
 }
 
 .projects .row .item:nth-child(2) {
-    background: url(../assets/project-img-2.jpg) center/cover no-repeat;
-}
-
-.projects .row .item:nth-child(3) {
-    background: url(../assets/project-img-3.jpg) center/cover no-repeat;
-}
-
-.projects .row .item:nth-child(4) {
-    background: url(../assets/project-img-4.jpg) center/cover no-repeat;
-}
-
-.projects .row .item:nth-child(5) {
-    background: url(../assets/project-img-5.jpg) center/cover no-repeat;
-}
-
-.projects .row .item:nth-child(6) {
-    background: url(../assets/project-img-6.jpg) center/cover no-repeat;
+    background: url(../assets/mywebsite.png) top/cover no-repeat;
 }
 
 .projects .item .item-overlay {
@@ -526,7 +354,7 @@
     transition: var(--transition);
 }
 
-.blog .page-link:nth-child(2) {
+.blog .page-link:nth-child(1) {
     background: var(--sec-color);
 }
 
