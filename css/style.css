@@ -241,12 +241,16 @@ old blog with more details click Here .home .img-container {
     position: relative;
 }
 
-.projects .row .item:nth-child(1) {
+.projects .row .item:nth-child(3) {
     background: url(../assets/mylogo.jpg) center/cover no-repeat;
 }
 
 .projects .row .item:nth-child(2) {
     background: url(../assets/mywebsite.png) top/cover no-repeat;
+}
+
+.projects .row .item:nth-child(1) {
+    background: url(../assets/kaggle2.png) top/cover no-repeat;
 }
 
 .projects .item .item-overlay {
