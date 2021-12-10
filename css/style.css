@@ -100,6 +100,7 @@
 .home .row>div {
     height: 60vh;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -116,10 +117,12 @@
     color: var(--sec-color);
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .home .row-left h1 {
     font-size: 2rem;
+    text-align: center;
     font-family: var(--poppins);
     text-transform: capitalize;
     line-height: 1.2;
@@ -131,6 +134,7 @@
 }
 
 .home .row-left h2 {
+    text-align: center;
     text-transform: uppercase;
     font-family: var(--poppins);
     font-size: 1rem;
@@ -156,7 +160,7 @@
     color: #fff;
 }
 
-old blog with more details click Here .home .img-container {
+.home .img-container {
     position: relative;
     width: 200px;
     height: 200px;
@@ -703,7 +707,7 @@ old blog with more details click Here .home .img-container {
         align-items: flex-start;
     }
     .home .row-left {
-        text-align: left;
+        text-align: center;
     }
     .home .img-container {
         width: 100%;
@@ -711,7 +715,7 @@ old blog with more details click Here .home .img-container {
         border-radius: unset;
     }
     .home .img-border {
-        height: 90%;
+        height: 80%;
         width: 100%;
         transition: var(--transition);
         border-radius: unset;
