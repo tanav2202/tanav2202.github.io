@@ -374,13 +374,15 @@
             }
             
             .contact-link {
-                /* padding: 40px 0px 40px 0px; */
-                margin: 40px auto;
+                align-items: center;
+                justify-content: center;
+                /* padding: 40px 0px 40px 0px;
+                margin: 0px auto; */
                 color: var(--sec-color);
                 text-align: center;
-                background: var(--black);
-                width: 30%;
-                border-radius: 24px;
+                /* background: var(--black);
+                width: 20%;
+                border-radius: 4px; */
             }
             
             button {
