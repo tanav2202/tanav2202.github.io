@@ -363,6 +363,22 @@
             }
             /* #### CONTACT PAGE #### */
             
+            .random h1 {
+                color: whitesmoke;
+                font-size: 8vh;
+            }
+            
+            .random {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            
             .contact-title {
                 padding-top: 5rem;
             }
@@ -386,7 +402,7 @@
             }
             
             button {
-                /* margin-top: 2px; */
+                margin-top: 2px;
                 height: 10 rem;
                 width: 20rem;
                 border: none;
@@ -416,104 +432,107 @@
                 justify-items: center;
                 align-content: center;
             }
-            /* .contact>div {
-    margin: 2.5rem 0;
-    padding: 2rem 0;
-
-    justify-content: center;
-    justify-items: center;
-} */
-            /* .contact h2 {
-    text-transform: uppercase;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-} */
+            
+            .contact>div {
+                margin: 2.5rem 0;
+                padding: 2rem 0;
+                justify-content: center;
+                justify-items: center;
+            }
+            
+            .contact h2 {
+                text-transform: uppercase;
+                align-items: center;
+                align-self: center;
+                align-content: center;
+            }
             
             .contact {
-                font-size: 1.5rem;
+                font-size: 2rem;
             }
-            /* .wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 5vh;
-}
-
-.wrapper .icon {
-    position: relative;
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer
-}
-
-.wrapper .icon i {
-    color: #fff;
-    transition: .4s linear;
-}
-
-.wrapper .tooltip {
-    position: absolute;
-    top: 0;
-    font-size: 25px;
-    background-color: #111;
-    color: #ffffff;
-    padding: 5px 8px;
-    border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .icon::before,
-.wrapper .icon::after {
-    content: '';
-    position: absolute;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    transition: .4s linear;
-}
-
-.wrapper .icon:hover .tooltip {
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-    transform: scale(.8);
-    transition: .4s linear;
-}
-
-.wrapper .icon:hover::before {
-    border-radius: 50%;
-    border-left: 4px solid;
-    border-right: 4px solid;
-    transform: skewX(20deg);
-    color: var(--sec-color);
-}
-
-.wrapper .icon:hover::after {
-    border-radius: 50%;
-    border-top: 4px solid;
-    border-bottom: 4px solid;
-    transform: skewY(-20deg);
-    color: var(--sec-color);
-} */
-            /* #### footer #### */
+            
+            .wrapper {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                margin-top: 2vh;
+            }
+            
+            .wrapper .icon {
+                position: relative;
+                margin-left: 2vh;
+                border-radius: 50%;
+                width: 400px;
+                height: 400px;
+                font-size: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                cursor: pointer;
+                background-color: black;
+            }
+            
+            .wrapper .icon i {
+                color: white;
+                transition: .4s linear;
+            }
+            
+            .wrapper .tooltip {
+                position: absolute;
+                top: 0;
+                font-size: 30px;
+                background-color: #111;
+                color: #ffffff;
+                padding: 5px 8px;
+                border-radius: 5px;
+                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            }
+            
+            .wrapper .icon::before,
+            .wrapper .icon::after {
+                content: '';
+                position: absolute;
+                box-sizing: border-box;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                transition: .4s linear;
+            }
+            
+            .wrapper .icon:hover .tooltip {
+                top: -45px;
+                opacity: 1;
+                visibility: visible;
+                pointer-events: auto;
+            }
+            
+            .wrapper .icon:hover span,
+            .wrapper .icon:hover .tooltip {
+                text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+                transform: scale(.8);
+                transition: .4s linear;
+            }
+            
+            .wrapper .icon:hover::before {
+                border-radius: 50%;
+                border-left: 4px solid;
+                border-right: 4px solid;
+                transform: skewX(20deg);
+                color: var(--sec-color);
+            }
+            
+            .wrapper .icon:hover::after {
+                border-radius: 50%;
+                border-top: 4px solid;
+                border-bottom: 4px solid;
+                transform: skewY(-20deg);
+                color: var(--sec-color);
+            }
             
             .footer {
                 padding: 2.5rem 0;
