@@ -365,7 +365,6 @@
             
             .random h1 {
                 color: whitesmoke;
-                font-size: 8vh;
             }
             
             .random {
@@ -380,7 +379,7 @@
             }
             
             .contact-title {
-                padding-top: 5rem;
+                padding-top: 4rem;
             }
             
             .contact-container {
